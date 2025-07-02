@@ -6,7 +6,6 @@ html {
     font-size: calc(12px + 0,390625vw );
 }
 section h2 {
-    text-align: center;
     font-size: 1.1rem;
 }
 /*====================================================================
@@ -99,3 +98,58 @@ section.works ul li p span {
     padding: 5px 10px 5px 10px;
     border-radius: 20px;
 }
+section.works ul li img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+/*====================================================================
+Footer
+======================================================================*/
+footer {
+    text-align: center;
+    padding: 50vw 0px 20px 0px;    
+}
+footer nav p a {
+    color: #21243D;
+    font-size: 2rem;
+    margin: 0px 15px 0px 15px;
+}
+footer nav p {
+    font-size: larger;
+}
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header{
+        padding: 2vw 2vw 2vw 2vw;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: right;
+    }
+
+    header nav ul li {
+        margin: 0px 20px 0px 20px;
+    }
+
+    section.banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    section.banner div{
+        width: 50%;
+      }
+    section.banner div.texto {
+        width: 50%;
+        padding: 0 4vw 0 0;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    section.banner img{
+        width: 50%;
+    }
+    section.banner div h2 {
+        font-size: 3.8rem;
+    }
+}
+
