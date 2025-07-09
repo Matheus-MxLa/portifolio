@@ -117,6 +117,7 @@ footer nav p a {
 }
 footer nav p {
     font-size: larger;
+    padding: 0px 0px 20px 0px;
 }
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 900px) {
