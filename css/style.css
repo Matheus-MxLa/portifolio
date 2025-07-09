@@ -70,6 +70,7 @@ section.posts ul li p.p2 {
     margin: 25px 0px 0px 0px;
     line-height: 1.6rem;
 }
+
 /*====================================================================
 Works
 ======================================================================*/
@@ -102,6 +103,9 @@ section.works ul li img {
     width: 90%;
     display: block;
     margin: auto;
+}
+main section h2 {
+    text-align: center;
 }
 /*====================================================================
 Footer
@@ -136,21 +140,61 @@ footer nav p {
     section.banner{
         display: flex;
         flex-direction: row-reverse;
+        padding: 5vw;
     }
     section.banner div{
         width: 50%;
       }
     section.banner div.texto {
         width: 50%;
-        padding: 0 4vw 0 0;
+        padding: 0vw 0 4vw 0 0;
         box-sizing: border-box;
         text-align: left;
     }
     section.banner img{
-        width: 50%;
+        width: 40%; 
     }
     section.banner div h2 {
         font-size: 3.8rem;
+    }
+    section.posts {
+        padding: 3vw 10vw 3vw 10vw;
+    }
+    section.posts ul{
+        display: flex;
+        margin: 1vw 0 0 0;
+    }
+    section.posts ul li{
+        margin: 0 1.5vw 0 1.5vw;
+    }
+    main section h2 {
+        text-align: left;
+    }
+    section.works ul li img {
+        width: 80%;
+    }
+    section.works ul {
+        display: flex;
+        margin: 1vw 0 0 0;
+    }
+    section.works {
+        padding: 3vw 10vw 3vw 10vw;
+    }
+    section.works ul li{
+        margin: 0 1vw 0 1vw;
+    }
+    main section.posts h2 {
+        text-align: left;
+        font-size: xx-large;
+        padding: 0 0 1vw 3vw;
+    }
+    main section.works h2 {
+        text-align: left;
+        font-size: xx-large;
+        padding: 0 0 1vw 4vw; 
+    }
+    section.works ul li{
+        
     }
 }
 
