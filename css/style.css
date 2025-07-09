@@ -193,8 +193,12 @@ footer nav p {
         font-size: xx-large;
         padding: 0 0 1vw 4vw; 
     }
-    section.works ul li{
-        
+    section.posts ul li{
+        padding: 1vw 3vw 1vw 3vw;
+    }
+
+    footer {
+        padding: 5vw 0px 20px 0px;
     }
 }
 
