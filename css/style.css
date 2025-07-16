@@ -152,10 +152,13 @@ footer nav p {
         text-align: left;
     }
     section.banner img{
-        width: 40%; 
+        width: 50%; 
     }
     section.banner div h2 {
         font-size: 3.8rem;
+    }
+    section.banner {
+        padding: 8vw 2vw 2vw 8vw;
     }
     section.posts {
         padding: 3vw 10vw 3vw 10vw;
